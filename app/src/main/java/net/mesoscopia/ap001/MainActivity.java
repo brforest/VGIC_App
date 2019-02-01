@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 for (int i = 0; i < nPoints; i++) {
                     double x = (double) i;
-                    Y_Data[i] = 100.00 * Math.exp(-x/100.0)*Math.cos(x/4);
+                    Y_Data[i] = 100.00 * Math.exp(-x/100.0)*Math.cos(x/40);
                     try {
                         Thread.sleep(30);
                     }
